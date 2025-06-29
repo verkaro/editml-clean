@@ -1,0 +1,10 @@
+Welcome to the {+full+} test suite.
+This line tests a simple deletion{- of this extra text-}.
+This one tests a {=highlight=}. {>This is a comment and should be removed.<}
+
+Let's test structural edits. We will move C to the end of the line.
+A. B. {move~C.~part1}
+And now we place it here: {move:part1}
+
+Finally, let's test a copy.
+Original: {copy~Source~part2}. Copied: {copy:part2}.
