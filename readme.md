@@ -102,12 +102,12 @@ This is a great document.
 You can pipe content directly into the tool.
 
 ```bash
-echo "Testing a {>comment<} and a {move~move~t1} here {move:t1}." | ./editml-clean
+echo "Testing a choice{>comment<} and{move~ text to move~t1} here is{move:t1}." | ./editml-clean
 ```
 
 **Output:**
 ```
-Testing a  and a  here move.
+Testing a choice and here is text to move.
 ```
 
 ### 3. Writing to an Output File
